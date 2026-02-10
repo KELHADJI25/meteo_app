@@ -1,7 +1,6 @@
 streamlit
 pandas
-meteostat
+numpy
 scikit-learn
 joblib
-numpy
-matplotlib
+meteostat==1.7.6
