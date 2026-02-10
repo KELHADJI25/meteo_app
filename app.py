@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import joblib
 from datetime import datetime, timedelta
-from meteostat import Point, Monthly, Stations
 from meteostat import Point, Daily
 
 st.set_page_config(page_title="Prévision mensuelle Meteostat", layout="centered")
@@ -130,4 +129,5 @@ if st.button("Prédire le mois suivant (tavg)"):
 
     st.subheader("Historique tavg (mensuel)")
     st.line_chart(df.set_index("time")["tavg"])
+
 
