@@ -1,17 +1,7 @@
-# Streamlit pour l’interface web
-streamlit==1.26.1
-
-# Pandas pour la manipulation de données
-pandas==2.2.2
-
-# Meteostat pour les données météo
-meteostat==1.7.6
-
-# Scikit-learn pour le modèle de régression
-scikit-learn==1.3.2
-
-# Joblib pour sauvegarder et charger le modèle
-joblib==1.3.2
-
-# Numpy (sans version fixe)
+streamlit
+pandas
+meteostat
+scikit-learn
+joblib
 numpy
+matplotlib
